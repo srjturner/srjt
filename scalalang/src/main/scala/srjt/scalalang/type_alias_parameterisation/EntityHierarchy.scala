@@ -14,7 +14,7 @@ class CustomerEntity(override var id : Int) extends AbstractEntityParameterised[
 // ******* Abstract Types ******* 
 
 /**
- * ALternative to above: Abstract base entity using an abstract type 
+ * Alternative to above: Abstract base entity using an abstract type 
  * definition to allow the type of the id variable to be defined by subclasses
  */
 abstract class AbstractEntityTypeAliased {

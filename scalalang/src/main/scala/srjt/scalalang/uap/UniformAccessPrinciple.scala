@@ -1,4 +1,4 @@
-package srjt.scalalang
+package srjt.scalalang.uap
 
 object UAP extends App {
 
