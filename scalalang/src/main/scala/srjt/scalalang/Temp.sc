@@ -1,4 +1,4 @@
-package srjt
+package srjt.scalalang
 
 object Temp {
   
@@ -11,7 +11,7 @@ object Temp {
   
   def encode[T](xs: List[T]): List[(T, Int)] = {
     val packed = pack(xs)
-    packed.map(x => (x.head, x.length))
+    packed.map(x: T => (x.head, x.length))
   }                                               //> encode: [T](xs: List[T])List[(T, Int)]
   
   val chars = List("a","a","a","b","b","c","c","c","c")
